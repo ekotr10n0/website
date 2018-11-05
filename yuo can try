@@ -1,0 +1,39 @@
+Deskripsi Tugas
+Kelompok fans grup musik yang sedang berkemah di sekitar lokasi konser terancam terkena
+penyakit menular akibat sungai tercemar, untuk menghindari hal tersebut seorang dokter
+ditugaskan untuk memberikan obat kepada masing-masing grouppies tersebut. Dari daftar
+pengunjung, tercatat ada 6 (Enam) grouppies yang sedang berkemah disana dengan rincian
+sebagai berikut.
+
+No. Lokasi Konser  JumlahGrouppies
+1       B           2
+2       C           4
+3       D           5
+4       E           1
+5       F           2
+6       G           3
+
+
+Dokter memulai dari tempat pendaftaran (A), berkeliling memberikan obat satu persatu
+kemudian kembali ke tempat pendaftaran. Waktu untuk memberikan obat adalah 5
+menit/orang, sedangkan waktu untuk perjalanan adalah 10 menit/jarak.
+Jarak masing-masing lokasi perkemahan adalah :
+
+  A B C D E F G
+A 0 6 4 4 20 12 8
+B 6 0 4 6 7 4 12
+C 4 4 0 12 8 9 4
+D 4 6 12 0 3 5 12
+E 20 7 8 3 0 8 8
+F 12 4 9 5 8 0 5
+G 8 12 4 12 8 5 0
+# 
+• Prolog
+• Pascal/Delphi
+• Python
+
+1. Implementasikan penyelesaian persoalan ini dalam sebuah program menggunakan
+strategi Greedy. Sebagai pembanding, selesaikan juga menggunakan Brute Force.
+2. Penyelesaian persoalan mencakup :
+a. Rute terbaik
+b. Total waktu yang diperlukan untuk perjalanan
